@@ -113,17 +113,51 @@ function App() {
               <p className="project-status">Personal project · In development</p>
             </article>
 
-            <article className="project-card">
-              <div className="project-number">PROJECT 02</div>
-              <div className="project-symbol">⌘</div>
-              <h3>More projects coming</h3>
-              <p>
-                I'm continuing to practise frontend development and
-                building new projects to strengthen my skills.
-              </p>
-              <div className="tags"><span>Learning</span><span>Building</span></div>
-              <p className="project-status">More work will be added here</p>
-            </article>
+             <article className="project-card">
+  <div className="project-number">PROJECT 02</div>
+  <div className="project-symbol">🧠</div>
+  <h3>MindSpark Memory Game</h3>
+  <p>
+    An interactive memory game designed to challenge memory,
+    improve focus and practise through multiple levels.
+  </p>
+  <div className="tags">
+    <span>React</span>
+    <span>JavaScript</span>
+    <span>CSS</span>
+  </div>
+  <a
+    className="primary-button project-link"
+    href="https://mindspark-blush.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Play MindSpark ↗
+  </a>
+</article>
+
+<article className="project-card">
+  <div className="project-number">PROJECT 03</div>
+  <div className="project-symbol">📚</div>
+  <h3>StudySpark Study Planner</h3>
+  <p>
+    A study-planning website with tasks, subjects, a calendar,
+    focus timer, notes and progress tracking.
+  </p>
+  <div className="tags">
+    <span>React</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+  <a
+    className="primary-button project-link"
+    href="https://study-spark-ivory-five.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Open StudySpark ↗
+  </a>
+</article>
           </div>
         </section>
 
@@ -135,7 +169,7 @@ function App() {
             internships and opportunities to learn through real projects.
           </p>
           <a className="primary-button"href="mailto:deepikameena16102006@gmail.com">
-            Email Me ↗
+            Email Me 
           </a>
         
         </section>
