@@ -111,17 +111,25 @@ function App() {
           <h2>Projects I've <span>worked on.</span></h2>
 
           <div className="projects-grid">
-            <article className="project-card">
+                       <article className="project-card">
               <div className="project-number">PROJECT 01</div>
               <div className="project-symbol">✳</div>
               <h3>Mangodi Wale</h3>
-              <p>
-                A food-business website concept featuring Mangodi,
-                Banana Chips and Namkeen, with product information,
-                weight options and a shopping-cart experience.
-              </p>
-              <div className="tags"><span>React</span><span>CSS</span><span>JavaScript</span></div>
-              <p className="project-status">Personal project · In development</p>
+
+              <div className="tags">
+                <span>React</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a
+                className="primary-button project-link"
+                href="https://react-practice-two-puce.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open Mangodi Wale ↗
+              </a>
             </article>
 
              <article className="project-card">
