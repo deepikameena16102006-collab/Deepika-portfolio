@@ -31,14 +31,25 @@ function App() {
               beautiful digital experiences.
             </p>
 
-            <div className="hero-buttons">
-              <a href="#projects" className="primary-button">
-                Explore My Work ↗
-              </a>
-              <a href="#contact" className="secondary-button">
-                Let's Connect
-              </a>
-            </div>
+           
+<div className="hero-buttons">
+  <a href="#projects" className="primary-button">
+    Explore My Work ↗
+  </a>
+
+  <a href="#contact" className="secondary-button">
+    Let's Connect
+  </a>
+
+  <a
+    href="/Deepika_Meena_Resume.pdf"
+    download="Deepika_Meena_Resume.pdf"
+    className="secondary-button"
+  >
+    Download Resume ↓
+  </a>
+</div>
+
 
             <div className="hero-note">
               <span>✦</span> Learning. Building. Growing.
